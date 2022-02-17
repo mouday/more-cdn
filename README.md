@@ -8,7 +8,7 @@
 
 - https://cdnjs.com/
 
-https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.15.6/index.js
+自动下载方式
 
 ```bash
 $ node download.js https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.15.6/index.js
