@@ -42,3 +42,13 @@ $ node download.js https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.15.6/inde
 ```
 
 > 注意：该库的文件只加不减，位置不能移动，以免影响其他库的使用
+
+Nginx开启目录索引功能，便于查看文件
+
+```bash
+# cdn的静态文件
+location ^~/cdn {
+    alias /data/wwwroot/more-cdn;
+    autoindex on;
+}
+```
