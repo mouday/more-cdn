@@ -40,3 +40,5 @@ $ node download.js https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.15.6/inde
 
 # 保存路径：ajax/libs/element-ui/2.15.6/index.js
 ```
+
+> 注意：该库的文件只加不减，位置不能移动，以免影响其他库的使用
